@@ -91,15 +91,15 @@ const ContactPage = () => {
                 hear from you!
               </p>
               <div className="">
-                <div className="flex items-center gap-x-3 mb-10 md:mb-7 mobile:mb-5">
+                <div className="flex items-center gap-x-3 mb-8 md:mb-7 mobile:mb-5">
                   <div className="w-10 h-10 mobile:h-8 mobile:w-8 flex items-center justify-center rounded-full border border-white flex-shrink-0 mobile:text-sm">
                     <i className="fa-solid fa-phone"></i>
                   </div>
                   <span className="font-medium mobile:text-sm">
-                    +84 848221096
+                    +84 123456789
                   </span>
                 </div>
-                <div className="flex items-center gap-x-3 mb-10 md:mb-7 mobile:mb-5">
+                <div className="flex items-center gap-x-3 mb-8 md:mb-7 mobile:mb-5">
                   <div className="w-10 h-10 mobile:h-8 mobile:w-8 flex items-center justify-center rounded-full border border-white flex-shrink-0 mobile:text-sm">
                     <i className="fa-solid fa-envelope"></i>
                   </div>
@@ -107,12 +107,12 @@ const ContactPage = () => {
                     nhc96.dev@gmail.com
                   </span>
                 </div>
-                <div className="flex items-center gap-x-3 mb-10 md:mb-7 mobile:mb-5">
+                <div className="flex items-center gap-x-3 mb-8 md:mb-7 mobile:mb-5">
                   <div className="w-10 h-10 mobile:h-8 mobile:w-8 flex items-center justify-center rounded-full border border-white flex-shrink-0 mobile:text-sm">
                     <i className="fa-solid fa-earth-asia"></i>
                   </div>
                   <span className="font-medium mobile:text-sm">
-                    monkeyblogging.com
+                    monkeyblogging-nhc.vercel.app
                   </span>
                 </div>
               </div>
