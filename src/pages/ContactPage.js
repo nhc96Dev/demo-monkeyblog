@@ -40,10 +40,10 @@ const ContactPage = () => {
     if (!isValid) return;
     emailjs
       .sendForm(
-        "gmail_osaclays123",
-        "template_awx2x6p",
+        "demo-monkeybog",
+        "email_monkeyblog",
         form.current,
-        "-VyGM9D9piZ30Ct63"
+        "DTWa9895rfRpZANcM"
       )
       .then(
         (result) => {
@@ -91,24 +91,24 @@ const ContactPage = () => {
                 hear from you!
               </p>
               <div className="">
-                <div className="flex items-center gap-x-3 mb-8 md:mb-7 mobile:mb-5">
-                  <div className="w-10 h-10 mobile:h-8 mobile:w-8 flex items-center justify-center rounded-full border border-white flex-shrink-0 mobile:text-sm">
+                <div className="flex items-center mb-8 gap-x-3 md:mb-7 mobile:mb-5">
+                  <div className="flex items-center justify-center flex-shrink-0 w-10 h-10 border border-white rounded-full mobile:h-8 mobile:w-8 mobile:text-sm">
                     <i className="fa-solid fa-phone"></i>
                   </div>
                   <span className="font-medium mobile:text-sm">
                     +84 123456789
                   </span>
                 </div>
-                <div className="flex items-center gap-x-3 mb-8 md:mb-7 mobile:mb-5">
-                  <div className="w-10 h-10 mobile:h-8 mobile:w-8 flex items-center justify-center rounded-full border border-white flex-shrink-0 mobile:text-sm">
+                <div className="flex items-center mb-8 gap-x-3 md:mb-7 mobile:mb-5">
+                  <div className="flex items-center justify-center flex-shrink-0 w-10 h-10 border border-white rounded-full mobile:h-8 mobile:w-8 mobile:text-sm">
                     <i className="fa-solid fa-envelope"></i>
                   </div>
                   <span className="font-medium mobile:text-sm">
                     nhc96.dev@gmail.com
                   </span>
                 </div>
-                <div className="flex items-center gap-x-3 mb-8 md:mb-7 mobile:mb-5">
-                  <div className="w-10 h-10 mobile:h-8 mobile:w-8 flex items-center justify-center rounded-full border border-white flex-shrink-0 mobile:text-sm">
+                <div className="flex items-center mb-8 gap-x-3 md:mb-7 mobile:mb-5">
+                  <div className="flex items-center justify-center flex-shrink-0 w-10 h-10 border border-white rounded-full mobile:h-8 mobile:w-8 mobile:text-sm">
                     <i className="fa-solid fa-earth-asia"></i>
                   </div>
                   <span className="font-medium mobile:text-sm">
@@ -116,7 +116,7 @@ const ContactPage = () => {
                   </span>
                 </div>
               </div>
-              <div className="flex gap-x-8 items-center justify-center opacity-70">
+              <div className="flex items-center justify-center gap-x-8 opacity-70">
                 <a
                   href="https://www.facebook.com/"
                   target={"_blank"}
