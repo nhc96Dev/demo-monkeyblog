@@ -112,7 +112,7 @@ const ContactPage = () => {
                     <i className="fa-solid fa-earth-asia"></i>
                   </div>
                   <span className="font-medium mobile:text-sm">
-                    monkeyblogging-nhc.vercel.app
+                    demo-monkeyblog-nhc.vercel.app
                   </span>
                 </div>
               </div>
